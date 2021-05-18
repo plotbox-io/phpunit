@@ -2043,7 +2043,7 @@ abstract class Assert
      * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
      * @throws ExpectationFailedException
      */
-    public static function assertStringContainsString(string $needle, string $haystack, string $message = ''): void
+    public static function assertStringContainsString(string $needle, string $haystack, string $message = '')
     {
         $constraint = new StringContains($needle, false);
 

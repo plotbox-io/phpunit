@@ -496,28 +496,28 @@ abstract class TestCase extends Assert implements Reorderable, SelfDescribing, T
     /**
      * This method is called before the first test of this test class is run.
      */
-    public static function setUpBeforeClass(): void
+    public static function setUpBeforeClass()
     {
     }
 
     /**
      * This method is called after the last test of this test class is run.
      */
-    public static function tearDownAfterClass(): void
+    public static function tearDownAfterClass()
     {
     }
 
     /**
      * This method is called before each test.
      */
-    protected function setUp(): void
+    protected function setUp()
     {
     }
 
     /**
      * This method is called after each test.
      */
-    protected function tearDown(): void
+    protected function tearDown()
     {
     }
 
